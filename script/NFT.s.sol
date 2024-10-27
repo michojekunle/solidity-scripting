@@ -14,3 +14,5 @@ contract MyScript is Script {
         vm.stopBroadcast();
     }
 }
+
+// forge script script/NFT.s.sol --rpc-url https://sepolia.infura.io/v3/470bde729ff64363bedec5afe71f8d66 --account other_acc_pkey  --sender 0xA711CEA2F1c571BbEEaB06Efd7dA8c660E7D6eA3 --broadcast -vvvvv
